@@ -1,0 +1,268 @@
+
+
+
+@media (min-width:600px) and (max-width: 1200px) {
+    .mobile-background {
+        display: none;
+    }
+
+    .background {
+        background-image: url("https://t4.ftcdn.net/jpg/04/31/44/89/360_F_431448941_oo9a7gWADWwWjyYBDmdcYvuIZdss3sxh.jpg");
+        height: 100vh;
+        background-size: cover;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left-content {
+        margin: 50px;
+    }
+
+    .heading {
+        color: white;
+        font-family: Roboto;
+        font-style: italic;
+        font-size: 50px;
+    }
+
+    .para {
+        color: white;
+        font-family: Roboto;
+        font-size: 18px;
+    }
+
+
+    .span-content1 {
+        color: yellow;
+    }
+
+    .unorder-list {
+        color: white;
+        font-family: Roboto;
+    }
+
+    .get-started-button {
+        height: 38px;
+        width: 100px;
+        color: white;
+        background-color: #FF474C;
+        border: 0px;
+        font-family: Roboto;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    .download-button {
+        height: 38px;
+        width: 130px;
+        color: white;
+        background-color: #FF474C;
+        border: 0px;
+        font-family: Roboto;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    .talk-button {
+        height: 38px;
+        width: 130px;
+        background-color: green;
+        color: white;
+        border: 0px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .para-content {
+        color: white;
+        font-family: Roboto;
+        font-size: 14px;
+    }
+
+    .right-content {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 50px;
+        flex-direction: column;
+
+    }
+
+    .video {
+        border: 0px;
+        border-radius: 20px;
+    }
+
+    .buy-button {
+        background-color: #FF474C;
+        color: white;
+        height: 30px;
+        width: 50px;
+        border: 0px;
+        border-radius: 5px;
+
+    }
+
+    .buy-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .background {
+        display: none;
+    }
+
+    .mobile-background {
+        background-image: url("https://t4.ftcdn.net/jpg/04/31/44/89/360_F_431448941_oo9a7gWADWwWjyYBDmdcYvuIZdss3sxh.jpg");
+        height: 100vh;
+        background-size: cover;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .para-content {
+        color: white;
+        font-family: Roboto;
+        font-size: 18px;
+
+    }
+
+    .span-content1 {
+        color: #ffae42;
+    }
+
+    .video {
+        border: 0px;
+        border-radius: 20px;
+
+    }
+
+
+
+    .buy-button {
+        background-color: #FF474C;
+        color: white;
+        height: 50px;
+        width: 50px;
+        border: 0px;
+        border-radius: 5px;
+
+    }
+
+    .para-content {
+        color: white;
+        font-family: Roboto;
+        font-size: 14px;
+    }
+
+    .get-started-button {
+        height: 38px;
+        width: 100px;
+        color: white;
+        background-color: #FF474C;
+        border: 0px;
+        font-family: Roboto;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    .download-button {
+        height: 38px;
+        width: 130px;
+        color: white;
+        background-color: #FF474C;
+        border: 0px;
+        font-family: Roboto;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    .down-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button-container {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .para-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .get-started-button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .student-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .download-button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .talk-button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .talk-button {
+        height: 38px;
+        width: 130px;
+        color: white;
+        background-color: green;
+        border: 0px;
+        font-family: Roboto;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+
+    .details-container {
+        background-color: #AB2330;
+        padding: 30px;
+
+    }
+
+    .heading {
+        color: white;
+        font-family: Roboto;
+        font-style: italic;
+        font-size: 50px;
+
+    }
+
+    .heading-2 {
+        color: white;
+        font-family: Roboto;
+    }
+
+    .heading-3 {
+        color: white;
+        font-family: Roboto;
+    }
+
+
+
+}
